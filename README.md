@@ -7,8 +7,7 @@
 - 583020409-8 นาย ภักดี พิมเก
 <hr>
 322236 Web Application Project
-<p>
-[ภาควิชาวิทยาการคอมพิวเตอร์](www.cs.kku.ac.th)<br>
-[คณะวิทยาศาสตร์](www.sc.kku.ac.th)<br>
-[มหาวิทยาลัยขอนแก่น](www.kku.ac.th)<br>
-</p>
+
+[ภาควิชาวิทยาการคอมพิวเตอร์](www.cs.kku.ac.th/)<br>
+[คณะวิทยาศาสตร์](www.sc.kku.ac.th/)<br>
+[มหาวิทยาลัยขอนแก่น](www.kku.ac.th/)<br>
