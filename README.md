@@ -8,6 +8,6 @@
 <hr>
 322236 Web Application Project
 
-[ภาควิชาวิทยาการคอมพิวเตอร์](www.cs.kku.ac.th/)<br>
-[คณะวิทยาศาสตร์](www.sc.kku.ac.th/)<br>
-[มหาวิทยาลัยขอนแก่น](www.kku.ac.th/)<br>
+[ภาควิชาวิทยาการคอมพิวเตอร์](http://www.cs.kku.ac.th/)<br>
+[คณะวิทยาศาสตร์](http://www.sc.kku.ac.th/)<br>
+[มหาวิทยาลัยขอนแก่น](http://www.kku.ac.th/)<br>
