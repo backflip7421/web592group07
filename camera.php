@@ -6,12 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/css/bootstrap.css" rel="stylesheet">
+  <link href="css/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/animate.min.css" rel="stylesheet"> 
   <link href="css/font-awesome.min.css" rel="stylesheet">
   <link href="css/lightbox.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="animate/animate.css" />
+<link rel="stylesheet" href="animate/set.css" />
+<link rel="stylesheet" href="gallery/blueimp-gallery.min.css">
 
   <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -52,8 +57,7 @@
 
 <header id="home">
     
-      
-    <div class="main-nav">
+      <div class="main-nav">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -77,58 +81,57 @@
         </div>
       </div>
     </div><!--/#main-nav-->
-  </header><br><!--/#home-->
-
-<div class="container">    
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="panel panel-primary">
-        <div class="panel-heading">NIKON</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-    <div class="col-sm-4"> 
-      <div class="panel panel-danger">
-        <div class="panel-heading">CANON </div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-    <div class="col-sm-4"> 
-      <div class="panel panel-success">
-        <div class="panel-heading">OLYMPUS</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-  </div>
-</div><br>
-
-<div class="container">    
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="panel panel-primary">
-        <div class="panel-heading">PANASONIC</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-    <div class="col-sm-4"> 
-      <div class="panel panel-primary">
-        <div class="panel-heading">FUJIFILM</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-    <div class="col-sm-4"> 
-      <div class="panel panel-primary">
-        <div class="panel-heading">SONY</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-  </div>
+  </header><br><br><br><!--/#home-->
+<div id="works"  class=" clearfix grid"> 
+    <figure class="effect-oscar  wowload fadeInUp">
+        <img src="img/1.jpg" alt="img01"/>
+        <figcaption>
+        <h2><font color ="white">NIKON</font></h2>
+            <p>AT THE HEART OF THE IMAGE<br>
+            <a href="images/portfolio/1.jpg" title="1" data-gallery>View more</a></p>            
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="img/2.jpg" alt="img01"/>
+        <figcaption>
+           <h2><font color ="white">CANON</font></h2>
+            <p>DELIGHTING YOU ALWAYS<br>
+            <a href="images/portfolio/2.jpg" title="1" data-gallery>View more</a></p>            
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="img/3.jpg" alt="img01"/>
+        <figcaption>
+           <h2><font color ="white">PANASONIC</font></h2>
+            <p>IDEAS FOR LIFE<br>
+            <a href="images/portfolio/3.jpg" title="1" data-gallery>View more</a></p>            
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="img/4.jpg" alt="img01"/>
+        <figcaption>
+            <h2><font color ="white">FUJIFILM</font></h2>
+            <p>VALUE FROM INNOVATION<br>
+            <a href="images/portfolio/4.jpg" title="1" data-gallery>View more</a></p>            
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="img/5.jpg" alt="img01"/>
+        <figcaption>
+            <h2><font color ="white">OLYMPUS</font></h2>
+            <p>YOUR VISION OUR FUTURE<br>
+            <a href="images/portfolio/5.jpg" title="1" data-gallery>View more</a></p>            
+        </figcaption>
+    </figure>
+     
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="img/6.jpg" alt="img01"/>
+        <figcaption>
+            <h2><font color ="white">SONY</font></h2>
+            <p>MAKE BELIEVE<br>
+            <a href="images/portfolio/6.jpg" title="1" data-gallery>View more</a></p>            
+        </figcaption>
+    </figure>
 </div><br><br>
 
 <footer class="container-fluid text-center">
@@ -138,6 +141,5 @@
     <button type="button" class="btn btn-danger">Sign Up</button>
   </form>
 </footer>
-
 </body>
 </html>
