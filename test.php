@@ -80,17 +80,35 @@
             <li class="scroll"><a href="#works">PRODUCTS</a></li> 
             <li class="scroll"><a href="#about-us">ABOUT US</a></li>                     
             <li class="scroll"><a href="#login">LOGIN</a></li>
+	    <li class="scroll"><a href="#help">HELP</a></li>
+	    <li class="scroll"><a href="#FAQ">FAQ</a></li> <!-- Edit ส่วนของเมนูหน้าเว็ปไซต์หลัก -->
+		  
                  
           </ul>
         </div>
       </div>
     </div><!--/#main-nav-->
   </header><br><br><br><!--/#home-->
+<br><br>
+	
+	<ul>
+	<li>20.8MP FX-Format CMOS Sensor</li>
+	<li>EXPEED 5 Image Processor</li>
+	<li>3.2" 2.36m-Dot Touchscreen LCD Monitor</li>
+	<li>4K UHD Video Recording at 30 fps</li>
+	<li>Multi-CAM 20K 153-Point <span class='wp_keywordlink'><a href="https://www.ec-mall.com/ebook/20257.html" title="AF" target="_blank">AF</a></span> System</li>
+	<li>Native ISO 102400, Extend to ISO 3280000</li>
+	<li>12 fps Shooting for 200 Shots with AE/<span class='wp_keywordlink'><a href="https://www.ec-mall.com/ebook/20257.html" title="AF" target="_blank">AF</a></span></li>
+	<li>180k-Pixel RGB Sensor and Group Area <span class='wp_keywordlink'><a href="https://www.ec-mall.com/ebook/20257.html" title="AF" target="_blank">AF</a></span></li>
+	<li>14-Bit Raw Files and 12-Bit Raw S Format</li>
+	<li>1000 Base-T Gigabit Wired LAN Support</li>
+	</ul>
 
 
 
 <!-- ตาราง Spec ข้อมูล -->
 
+<br><br>
 <iframe src="https://www.youtube.com/embed/LSb1f_15ev0" width="557" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe> <!-- Video สินค้า -->
 </div>
 															<div class="spec">
