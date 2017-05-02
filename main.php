@@ -1,4 +1,31 @@
 <!DOCTYPE html>
+<?php
+	$appid = "web592group07.appspot.com";
+	$page = $_GET['p'];
+	if($page=='') $page='main';
+		$title = $page;
+	function panel_include($title,$file,$ptype='default'){
+		echo "<div class='panel panel-$ptype'>";
+		echo "<div class='panel-heading'>$title</div>";
+		echo "<div class='panel-body'>";
+		if(file_exists($file)){
+			include($file);
+		}else{
+			echo "ไม่พบไฟล์ $file";
+		}
+		echo "</div>";
+		echo "</div>";
+	}
+	use google\appengine\api\cloud_storage\CloudStorageTools;
+	function userpic($uid){
+		global $appid;
+		$userpic="gs://$appid/{$uid}.jpg";
+		if(!file_exists($userpic)){
+			return "user.png";
+		}
+		return CloudStorageTools::getImageServingUrl($userpic,["size"=>200]);
+	}
+?>
 <html lang="en">
 <head>
   <title>LENS ME | IMAGINE YOUR LIFE</title>
@@ -79,7 +106,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="main.php">
-            <h1><img class="img-responsive" src="logo.png" alt="logo"></h1>
+            <h1><img class="img-responsives" src="logo.png" alt="logo"></h1>
           </a>                    
         </div>
         <div class="collapse navbar-collapse">
@@ -87,7 +114,7 @@
             <li class="scroll active"><a href="#home">HOME</a></li>
             <li class="scroll"><a href="#works">PRODUCTS</a></li> 
             <li class="scroll"><a href="#team">ABOUT US</a></li>                     
-            <li class="scroll"><a href="#login">LOGIN</a></li>
+            <li><?php include("main_user.php"); ?>   </li>
                  
           </ul>
         </div>
@@ -216,7 +243,7 @@
           <div class="col-sm-3">
             <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
               <div class="member-image">
-                <img class="img-responsive" src="team/4.jpg" alt="">
+                <img class="img-responsive" src="team/4.png" alt="">
               </div>
               <div class="member-info">
                 <h3>MR.PAKDEE PIMKE</h3>
